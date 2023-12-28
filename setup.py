@@ -19,13 +19,13 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
 
 __version__ = "0.0.1"
-REPO_NAME = "database_connector"
-SRC_NAME= "Database-Connect"
+REPO_NAME = "mongodb_connector"
+PKG_NAME= "MongoDB-Connect"
 AUTHOR_USER_NAME = "sunnysavita10"
 AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
 
 setup(
-    name=SRC_NAME,
+    name=PKG_NAME,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
