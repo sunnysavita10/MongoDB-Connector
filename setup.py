@@ -18,19 +18,18 @@ with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
    
 
-__version__ = "0.0.3"
-
-REPO_NAME = "IPYNBrenderer"
-AUTHOR_USER_NAME = "c17hawke"
-SRC_REPO = "IPYNBrenderer"
-AUTHOR_EMAIL = "sunny.c17hawke@gmail.com"
+__version__ = "0.0.1"
+REPO_NAME = "database_connector"
+SRC_NAME= "Database-Connect"
+AUTHOR_USER_NAME = "sunnysavita10"
+AUTHOR_EMAIL = "sunny.savita@ineuron.ai"
 
 setup(
-    name=SRC_REPO,
+    name=SRC_NAME,
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="A small python package",
+    description="A python package for connecting with database.",
     long_description=long_description,
     long_description_content="text/markdown",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",

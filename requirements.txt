@@ -4,3 +4,5 @@ dnspython
 pandas
 numpy
 ensure
+
+-e .
