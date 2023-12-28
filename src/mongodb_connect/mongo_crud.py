@@ -47,7 +47,6 @@ class mongo_operation:
         return self.database
     
     
-    @__connect_database.setter
     @ensure_annotations
     def set_new_database(self, database:str):
         """to set a new database name for the MongoClient
@@ -71,7 +70,6 @@ class mongo_operation:
         
         return self.collection
     
-    @__connect_collection.setter
     @ensure_annotations
     def set_new_collection(self,collection_name:str):
         """ to set a new collection name for mongo_operation
