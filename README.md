@@ -54,28 +54,14 @@ Support for Mysql
 
 ```
 
-* For Cassandra Operations
-```python
-    import database_connect as connection
-    zip_path = 'paste_the_zip_path' #should be a string
-    client_id = 'paste_the_client_id' #should be a string
-    client_secret = 'paste_the_client_secret' #should be a string
-    keyspace = 'paste_the_keyspace name' #should be a string #note: keyspace should be created manually in datastax cassandra. Keyspaces are not allowed to create from backend.
-    table_name = 'paste_the_table_name' 
 
-    cassandra = connection.cassandra_operations(zip_path,
-                                                client_id,
-                                                client_secret,
-                                                keyspace,
-                                                table_name)
-```
 
- * Detailed Documentation: <a href = "https://drive.google.com/file/d/1mGUlBeW_62bJH4sYWmCS4DzjwQj3VxgI/view?usp=sharing" > Check Here</a>
+ * Detailed Documentation: <a href = "https://colab.research.google.com/drive/1FfqXKEBhrCOXAU0DWTKjeJJdEMlECmyl?usp=sharing" > Check Here</a>
 
-* Creator - <a href="https://www.linkedin.com/in/hrisikesh-neogi/">
-Hrisikesh Neogi </a>
+* Creator - <a href="https://www.linkedin.com/in/sunny-savita/">
+Sunny Savita </a>
 
-For any suggestion, contact me on <a href="mailto: hrisikesh.neogi@gmail.com">hrisikesh.neogi@gmail.com</a>.
+For any suggestion, contact me on <a href="mailto: sunny.savita@ineuron.ai">sunny.savita@ineuron.ai</a>.
                                     
    
    
